@@ -31,11 +31,11 @@ In this notebook, there are 4 classification models that were built:
    - Lasso Logistic Regression
    - Random Forest
    - Multinomial Naïve Bayes
-Methodology for training each model:
-- Choose hyperparameters we want to tune.
-- Decide what model performance metrics to use - I use Accuracy as the main metric.
-- Use TfidVectorizer to prepare our text for modeling with Pipelines & Randomized Search Cross Validation in order to find the best hyperparameters that balance bias and variance.
-- Compare model performance of each model and determine which is best for as our production model.
+**Methodology for training each model:**
+   - Choose hyperparameters we want to tune.
+   - Decide what model performance metrics to use - I use Accuracy as the main metric.
+   - Use TfidVectorizer to prepare our text for modeling with Pipelines & Randomized Search Cross Validation in order to find the best hyperparameters that balance bias and variance.
+   - Compare model performance of each model and determine which is best for as our production model.
    
 ### Conclusions & Recommendations
 Our models exceeded the baseline of ~53% with the Multinomial Naïve Bayes production model having an accuracy of ~76% on the test data. This model can serve as a great tool for the r/MaliciousCompliance moderators to use as a general filter to highlight submissions that may be a better fit for other subreddits like r/pettyrevenge or r/ProRevenge. I would not necessarily use this model to fully auto-moderate and auto-remove submissions due to the occurences of several misclassifications of predicting Active Revenge Subreddit when it was really the Passive Revenge Subreddit r/MaliciousCompliance. 
