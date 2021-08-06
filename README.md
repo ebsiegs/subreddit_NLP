@@ -31,6 +31,7 @@ In this notebook, there are 4 classification models that were built:
    - Lasso Logistic Regression
    - Random Forest
    - Multinomial Naïve Bayes
+
 **Methodology for training each model:**
    - Choose hyperparameters we want to tune.
    - Decide what model performance metrics to use - I use Accuracy as the main metric.
