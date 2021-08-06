@@ -22,7 +22,7 @@ In this first notebook, we used [Pushshift's](https://github.com/pushshift/api) 
 In this notebook, we addressed our problem statement and laid out the overview and background information for our project. We also tackled the wrangling of our data that we pulled and cleaned it up to be able to use the subreddit submission text as the features for our models. This included dropping unecessary columns, dropping posts where text had been removed or deleted, dropping null values, removing html and markdown artifacts, removing punctuation, lowercasing all text, and combining text from titles and selftext into one all_text column.
 
 ### 4. Lemmatizing, Vectorizing, and EDA
-Natural Language Processing! This notebook converts standard text data (like Titles and Submissions) into a format that allows us to analyze it and use it in our modeling. Additionaly, we did some exploratory data analysis to determine what are most important features will be (ie. most frequent words in each subreddit that distinguish them from other subreddits similar in topic). 
+Natural Language Processing! This notebook converts standard text data (like Titles and Submissions) into a format that allows us to analyze it and use it in our modeling. Additionally, we did some exploratory data analysis to determine what our most important features will be (ie. most frequent words in each subreddit that distinguish them from other subreddits similar in topic). 
   
 ### 5. Modeling & Results
 In this notebook, there are 4 classification models that were built:
