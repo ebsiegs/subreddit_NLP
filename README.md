@@ -2,7 +2,7 @@
 
 
 ## Problem Statement
-Are the differences between Active vs. Passive revenge classifiable in the subreddits r/MaliciousCompliance vs.  r/pettyrevenge and r/ProRevenge r/MaliciousCompliance is Passive not premeditated revenge and the other 2 subreddits are more Active planned acts of vengeance. 
+Are the differences between Active vs. Passive revenge classifiable in the subreddits r/MaliciousCompliance vs.  r/pettyrevenge and r/ProRevenge. r/MaliciousCompliance is Passive not premeditated revenge and the other 2 subreddits are more Active planned acts of vengeance. 
 
 Moderators for r/MaliciousCompliance can use this classification model to help filter submissions that might be better suited for another subreddit.
 
