@@ -39,7 +39,7 @@ In this notebook, there are 4 classification models that were built:
    - Compare model performance of each model and determine which is best for as our production model.
  
 
-![model performance](/images/model%performance.png)
+![model performance](/images/model%performance.png?raw=true)
 
    
 ### Conclusions & Recommendations
