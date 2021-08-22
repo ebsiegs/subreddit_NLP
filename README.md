@@ -8,7 +8,7 @@ Moderators for r/MaliciousCompliance can use this classification model to help f
 
 
 ## Executive Summary
-We will use and evaluate a variety of classifcation models including Logistic Regression, regularized Lasso Logistic Regression, Random Forest, and Multinomial Naïve Bayes and attempt to model the distinction between active and passive revenge in subreddits. 
+We will use and evaluate a variety of classification models including Logistic Regression, regularized Lasso Logistic Regression, Random Forest, and Multinomial Naïve Bayes and attempt to model the distinction between active and passive revenge in subreddits. 
 
 In order to collect our reddit data, we will use the PushShift API and pull 550 days of data.  We then will spend some time cleaning, preprocessing and getting the data ready for modeling. All of our text will need to be lemmatize to shorten the words to their base form for standardization and additionally word vectorized to use the text as features in our models. We will evaluate all model results, comparing them to our baseline classifier and to eachother. These models will be mainly evaluated on the metric of accuracy as we want to know if the moderators of r/MaliciousCompliance can use our work to filter submissions that might belong in another subreddit.
 
