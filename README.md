@@ -1,4 +1,4 @@
-# Classifying Passive vs. Active Revenge in Related Subreddits
+# Classifying Passive vs. Active Revenge in Related Subreddits using NLP
 
 
 ## Problem Statement
