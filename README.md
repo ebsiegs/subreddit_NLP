@@ -24,7 +24,7 @@ In this notebook, we addressed our problem statement and laid out the overview a
 ### 4. Lemmatizing, Vectorizing, and EDA
 Natural Language Processing! This notebook converts standard text data (like Titles and Submissions) into a format that allows us to analyze it and use it in our modeling. Additionally, we did some exploratory data analysis to determine what our most important features will be (ie. most frequent words in each subreddit that distinguish them from other subreddits similar in topic). 
 
-![common words](images/common_words.png)
+![common words](images/common_words.jpg)
   
 ### 5. Modeling & Results
 In this notebook, there are 4 classification models that were built:
